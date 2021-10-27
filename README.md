@@ -137,7 +137,6 @@ where [Table Name: Recruiter] is null
 select * from RecruitrBD
 
 ![Recruiter BD after del null
-
 values](https://user-images.githubusercontent.com/91282080/139036797-100d9968-03bf-4569-b6b1-838b14732251.JPG)
 
 ----renaming columns in RecruitrBD
@@ -149,10 +148,7 @@ sp_rename 'RecruitrBD.F7', RecuriterName
 select * from RecruitrBD -- Final RecruitrBD table
 
 ![final recruiter
-
-data]
-
-(https://user-images.githubusercontent.com/91282080/139037004-c8421b96-80d6-4c62-8b58-43df08ba4aec.JPG)
+data](https://user-images.githubusercontent.com/91282080/139037004-c8421b96-80d6-4c62-8b58-43df08ba4aec.JPG)
 
 ----Separating Department Data into a new Table DeptBD
 
@@ -163,7 +159,6 @@ into DeptBD
 from ['Assignment - RDBMS Dataset$']
 
 ![Dept bd table
-
 separated](https://user-images.githubusercontent.com/91282080/139037123-265b3a23-6393-4c7e-bafc-0c8ecc89d075.JPG)
 
 ----deleting null values from the DeptBD table
@@ -175,9 +170,7 @@ where [Table Name: Department] is null
 Select * from DeptBD
 
 ![dropping null values from dept
-
-table]
-(https://user-images.githubusercontent.com/91282080/139037175-f94f3418-c77d-4b29-b577-08f063f489be.JPG)
+table](https://user-images.githubusercontent.com/91282080/139037175-f94f3418-c77d-4b29-b577-08f063f489be.JPG)
 
 ----renaming columns in DeptBD
 
@@ -188,9 +181,7 @@ sp_rename 'DeptBD.F10', Department
 select * from DeptBD
 
 ![reanmed columns dept
-
-bd]
-(https://user-images.githubusercontent.com/91282080/139037258-ca23d573-eff1-4c24-b9fb-61eaf1f307d2.JPG)
+bd](https://user-images.githubusercontent.com/91282080/139037258-ca23d573-eff1-4c24-b9fb-61eaf1f307d2.JPG)
 
 ----Joining Tables EmplyeeBD and RecruitrID using common column RecruiterID
 
@@ -207,9 +198,7 @@ on EmplyeeBD.RecruiterID = RecruitrBD.RecruiterID
 select * from RecruiterDeptJoined
 
 ![Joining Tables EmplyeeBD and RecruitrID using common column
-
-RecruiterID]
-(https://user-images.githubusercontent.com/91282080/139037314-00409a06-df8c-40f8-bc6b-de73840bfcdc.JPG)
+RecruiterID](https://user-images.githubusercontent.com/91282080/139037314-00409a06-df8c-40f8-bc6b-de73840bfcdc.JPG)
 
 ----Joining Tables RecruiterDeptJoined and Dept ID using common column
 
@@ -227,8 +216,7 @@ select * from recruiterDeptList
 
 ![Joining Tables RecruiterDeptJoined and Dept ID using common column
 DepartmentID  We get a new table with all the data and in a better
-way]
-(https://user-images.githubusercontent.com/91282080/139037369-920a0e66-dd81-42b3-84c6-a221cdfa39ea.JPG)
+way](https://user-images.githubusercontent.com/91282080/139037369-920a0e66-dd81-42b3-84c6-a221cdfa39ea.JPG)
 
 ----Answer 1
 
@@ -236,8 +224,7 @@ select * from RecruiterDeptJoined
 
 where RecruiterID = 2
 
-![Anser1]
-(https://user-images.githubusercontent.com/91282080/139037437-c64f8588-ea96-48bf-b5ff-8a12136bebe2.JPG)\
+![Anser1](https://user-images.githubusercontent.com/91282080/139037437-c64f8588-ea96-48bf-b5ff-8a12136bebe2.JPG)\
 
 ----Answer 2
 
@@ -245,8 +232,7 @@ select * from RecruiterDeptList
 
 where RecuriterName = 'John Do'
 
-![Answer 2]
-(https://user-images.githubusercontent.com/91282080/139037476-91103ccb-f7ec-4343-8def-55c245d9554a.JPG)
+![Answer 2](https://user-images.githubusercontent.com/91282080/139037476-91103ccb-f7ec-4343-8def-55c245d9554a.JPG)
 
 ----Answer 3
 
@@ -258,5 +244,4 @@ WHERE Department is not null
 
 GROUP BY Department
 
-![answer 3]
-(https://user-images.githubusercontent.com/91282080/139037499-aac09b9b-262a-4f63-b149-5f4c4936af4a.JPG)
+![answer 3](https://user-images.githubusercontent.com/91282080/139037499-aac09b9b-262a-4f63-b149-5f4c4936af4a.JPG)
