@@ -38,14 +38,20 @@ Problem –
 
 Approach-
 1- First, we drop all the null columns F5 and F8.
+
 2- We separated Employee data into a new table called EmplyeeBD
+
 3- We deleted all the null values from EmplyeeBD table to get all the
 relevant Employee Data.
+
 4- We rename all the columns for our easier understanding.
+
 5- We perform the similar steps (2-4) and create table for RecruitrBD
 and DeptBD.
+
 6- We then join the EmplyeeBD and RecruitrID using common column
 RecruiterID and name the table RecruitrDeptJoined
+
 7- We then join the RecruiterDeptJoined and Dept ID using common
 column DepartmentID. We get a new table with all the data and in a
 better way.
