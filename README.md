@@ -4,9 +4,7 @@ Problem â€“ To find out which show the person watched first after buying an OTTâ
 
 
 
-![Q1 A]
-
-(https://user-images.githubusercontent.com/90283295/139030552-d731f8e9-75ad-408c-8d6e-c2741e61b6fb.JPG)
+![Q1 A](https://user-images.githubusercontent.com/90283295/139030552-d731f8e9-75ad-408c-8d6e-c2741e61b6fb.JPG)
 
 
 ![Output](https://user-images.githubusercontent.com/90283295/139030579-e7b67550-4319-41fb-98cf-831f4c2be1dc.JPG)
