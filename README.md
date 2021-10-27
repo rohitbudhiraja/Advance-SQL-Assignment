@@ -217,6 +217,9 @@ select * from recruiterDeptList
 DepartmentID  We get a new table with all the data and in a better
 way](https://user-images.githubusercontent.com/91282080/139037369-920a0e66-dd81-42b3-84c6-a221cdfa39ea.JPG)
 
+
+Q1. A list of all employees recruited by Paul Allen
+
 ----Answer 1
 
 select * from RecruiterDeptJoined
@@ -225,6 +228,8 @@ where RecruiterID = 2
 
 ![Anser1](https://user-images.githubusercontent.com/91282080/139037437-c64f8588-ea96-48bf-b5ff-8a12136bebe2.JPG)\
 
+Q2. A list of employees in Marketing recruited by John Do
+
 ----Answer 2
 
 select * from RecruiterDeptList
@@ -232,6 +237,9 @@ select * from RecruiterDeptList
 where RecuriterName = 'John Do'
 
 ![Answer 2](https://user-images.githubusercontent.com/91282080/139037476-91103ccb-f7ec-4343-8def-55c245d9554a.JPG)
+
+
+Q3. Output the count of employees in each department
 
 ----Answer 3
 
