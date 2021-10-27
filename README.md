@@ -115,7 +115,6 @@ sp_rename 'EmplyeeBD.Department', DepartmentID
 select * from EmplyeeBD -- Final EmplyeeBD table
 
 ![Renamed all columns in
-
 EmplyeeBD](https://user-images.githubusercontent.com/91282080/139036598-6350a9ff-675c-4c8c-98d7-5dfe42baf619.JPG)
 
 ----Separating Recruiter Data into a new Table RecruitrBD
