@@ -4,7 +4,9 @@ Problem â€“ To find out which show the person watched first after buying an OTTâ
 
 
 
-![Q1 A](https://user-images.githubusercontent.com/90283295/139030552-d731f8e9-75ad-408c-8d6e-c2741e61b6fb.JPG)
+![Q1 A]
+
+(https://user-images.githubusercontent.com/90283295/139030552-d731f8e9-75ad-408c-8d6e-c2741e61b6fb.JPG)
 
 
 ![Output](https://user-images.githubusercontent.com/90283295/139030579-e7b67550-4319-41fb-98cf-831f4c2be1dc.JPG)
@@ -150,7 +152,9 @@ select * from RecruitrBD -- Final RecruitrBD table
 
 ![final recruiter
 
-data](https://user-images.githubusercontent.com/91282080/139037004-c8421b96-80d6-4c62-8b58-43df08ba4aec.JPG)
+data]
+
+(https://user-images.githubusercontent.com/91282080/139037004-c8421b96-80d6-4c62-8b58-43df08ba4aec.JPG)
 
 ----Separating Department Data into a new Table DeptBD
 
@@ -222,7 +226,8 @@ select * from recruiterDeptList
 
 ![Joining Tables RecruiterDeptJoined and Dept ID using common column
 DepartmentID  We get a new table with all the data and in a better
-way](https://user-images.githubusercontent.com/91282080/139037369-920a0e66-dd81-42b3-84c6-a221cdfa39ea.JPG)
+way]
+(https://user-images.githubusercontent.com/91282080/139037369-920a0e66-dd81-42b3-84c6-a221cdfa39ea.JPG)
 
 ----Answer 1
 
