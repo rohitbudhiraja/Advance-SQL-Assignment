@@ -176,7 +176,8 @@ Select * from DeptBD
 
 ![dropping null values from dept
 
-table](https://user-images.githubusercontent.com/91282080/139037175-f94f3418-c77d-4b29-b577-08f063f489be.JPG)
+table]
+(https://user-images.githubusercontent.com/91282080/139037175-f94f3418-c77d-4b29-b577-08f063f489be.JPG)
 
 ----renaming columns in DeptBD
 
@@ -188,7 +189,8 @@ select * from DeptBD
 
 ![reanmed columns dept
 
-bd](https://user-images.githubusercontent.com/91282080/139037258-ca23d573-eff1-4c24-b9fb-61eaf1f307d2.JPG)
+bd]
+(https://user-images.githubusercontent.com/91282080/139037258-ca23d573-eff1-4c24-b9fb-61eaf1f307d2.JPG)
 
 ----Joining Tables EmplyeeBD and RecruitrID using common column RecruiterID
 
@@ -206,7 +208,8 @@ select * from RecruiterDeptJoined
 
 ![Joining Tables EmplyeeBD and RecruitrID using common column
 
-RecruiterID](https://user-images.githubusercontent.com/91282080/139037314-00409a06-df8c-40f8-bc6b-de73840bfcdc.JPG)
+RecruiterID]
+(https://user-images.githubusercontent.com/91282080/139037314-00409a06-df8c-40f8-bc6b-de73840bfcdc.JPG)
 
 ----Joining Tables RecruiterDeptJoined and Dept ID using common column
 
@@ -233,7 +236,8 @@ select * from RecruiterDeptJoined
 
 where RecruiterID = 2
 
-![Anser1](https://user-images.githubusercontent.com/91282080/139037437-c64f8588-ea96-48bf-b5ff-8a12136bebe2.JPG)\
+![Anser1]
+(https://user-images.githubusercontent.com/91282080/139037437-c64f8588-ea96-48bf-b5ff-8a12136bebe2.JPG)\
 
 ----Answer 2
 
@@ -241,7 +245,8 @@ select * from RecruiterDeptList
 
 where RecuriterName = 'John Do'
 
-![Answer 2](https://user-images.githubusercontent.com/91282080/139037476-91103ccb-f7ec-4343-8def-55c245d9554a.JPG)
+![Answer 2]
+(https://user-images.githubusercontent.com/91282080/139037476-91103ccb-f7ec-4343-8def-55c245d9554a.JPG)
 
 ----Answer 3
 
@@ -253,4 +258,5 @@ WHERE Department is not null
 
 GROUP BY Department
 
-![answer 3](https://user-images.githubusercontent.com/91282080/139037499-aac09b9b-262a-4f63-b149-5f4c4936af4a.JPG)
+![answer 3]
+(https://user-images.githubusercontent.com/91282080/139037499-aac09b9b-262a-4f63-b149-5f4c4936af4a.JPG)
